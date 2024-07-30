@@ -1,0 +1,35 @@
+.main-servicos{
+    margin-top: 65px;
+    display: flex;
+    flex-direction: column;
+}
+.indicativo-pagina{
+    width: 100%;
+    height: 200px;
+    color: #00c5c2;
+    background-image: url(../img/Fundo_psicologos.png);
+    background-size: cover;
+    background-color: #353535;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    font-weight: 600;
+}
+
+.btn-ver-todos-psicologos{
+    margin-bottom: 50px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    height: 0%;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: transparent;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 1s ease;
+    scale: 1;
+}

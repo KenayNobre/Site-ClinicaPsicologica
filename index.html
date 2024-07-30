@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clínica Psicológica</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="icon" type="image/png" href="assets/img/icon.png">
+    <script src="https://kit.fontawesome.com/04a1096a36.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html"><img src="assets/img/logo.png" height="80px"></a>
+        </div>
+        <nav>
+            <a href="pages/servicos.html" class="navegar">Serviços</a>
+            <a href="pages/psicologos.html" class="navegar">Psicólogos</a>
+            <a href="pages/sobre.html" class="navegar">Sobre</a>
+            <a href="pages/ajuda.html" class="navegar">ajuda</a>
+        </nav>
+        <a href="pages/login_cadastro.html" class="cadastro_login">Entrar | Cadastrar</a>
+    </header>
+
+    <main>
+        <!--ChatBot-->
+        <button class="ChatBot">
+            <i class="fa-solid fa-comments"></i>
+            <i class="fa-solid fa-xmark"></i>
+        </button>
+
+        <div class="area-conversa" id="floatingWindow">
+            <div id="dragHeader" class="header-chat">
+                <img src="assets/img/icon.png" width="15%">
+                <span> Suporte - Clinica Psicologica</span>
+            </div>
+
+            <div class="main-mensage">
+                <div class="bot-msg">
+                    Bem vindo à Clinica Psicologica!
+                    Eu sou o Assistente Virtual da Clinica, e estou à sua disposição para ajudar no que precisar.
+                </div>
+                <div class="bot-msg">
+                    Para personalizar seu atendimento, por favor selecione como podemos seguir:
+                </div>
+                <div class="box-bot-msg-option">
+                    <button class="bot-msg-option1">
+                        Sou novo na Clinica Psicológica
+                    </button>
+                    <button class="bot-msg-option2">
+                        Já sou Psicólogo
+                    </button>
+                </div>
+            </div>
+
+            <div class="mensage-area-box">
+                <div class="mensage-area">
+                    <textarea name="text-area" id="text-area" placeholder="Escreva sua mensagem"></textarea>
+                </div>
+                <button class="send-mensage">
+                    <i class="fa-solid fa-paper-plane fa-xl"></i>
+                </button>
+            </div>
+        </div>
+
+        <!--Botão de voltar para o topo-->
+        <a href="#" class="go-to-top">
+            <i class="fa-solid fa-chevron-up"></i>
+        </a>
+        <!--Slider-->
+        <section class="slider">
+            <div class="slides">
+                <!--Radios-->
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+
+                <!--Slide-->
+                <div class="slide first">
+                    <img src="assets/img/março.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="assets/img/março_lilas.png" alt="">
+                </div>
+
+                <!--Auto Navigation-->
+                <div class="navigation-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                </div>
+
+                <!--Labels-->
+                <div class="manual_navegation">
+                    <label for="radio1" class="manual_btn" id="label1"></label>
+                    <label for="radio2" class="manual_btn" id="label2"></label>
+                </div>
+
+            </div>
+        </section>
+        <!--SOBRE-->
+        <section class="sobre">
+            <div class="top-sobre">
+                <div class="first-information">
+                    <i class="fa-solid fa-graduation-cap" style="color: black;"></i>
+                    <span>Psicólogos Graduados</span>
+                </div>
+                <div class="second-information">
+                    <i class="fa-solid fa-lock"></i>
+                    <span>Segurança</span>
+                </div>
+                <div class="third-information">
+                    <i class="fa-solid fa-check"></i>
+                    <span>Sistemas Exclusivos</span>
+                </div>
+            </div>
+
+            <div class="caixa-sobre">
+                <div class="texto-sobre1">
+                    <h1>Quem somos</h1>
+                    <p> Somos uma clínica de saúde mental, que busca ajudar as pessoas a terem maior qualidade de vida e
+                        bem-estar.
+                        Oferecemos atendimento médico para adolescentes e adultos e temos também, atendimento
+                        psicológico para crianças, adolescentes e adultos.
+                    </p>
+                    <div class="fotos-sobre">
+                        <div class="fotos-sobre um"> <img
+                                src="https://serenaclinica.com.br/wp-content/uploads/2023/09/IMG-20230927-WA0090-400x284.jpg">
+                        </div>
+                        <div class="fotos-sobre dois"><img
+                                src="https://serenaclinica.com.br/wp-content/uploads/2023/09/IMG-20230927-WA0084.jpg">
+                        </div>
+                        <div class="fotos-sobre tres"> <img
+                                src="https://serenaclinica.com.br/wp-content/uploads/2023/09/IMG-20230927-WA0087.jpg">
+                        </div>
+                    </div>
+                </div>
+                <div class="texto-sobre2">
+                    <h1>Todos os psicólogos tem aprovação do conselho federal de psicologia!</h1>
+                    <p>
+                        Você sabia que desde 2018 os psicólogos precisam ter aprovação do Conselho Federal de Psicologia
+                        para atender online? Todos os psicólogos associados a nossa plataforma possuem essa autorização,
+                        e você pode conferir direto no site do CFP clicando aqui! Tenha uma consulta com um psicólogo
+                        online sem precisar sair do conforto de sua casa! Nossos pagamentos são gerenciados pelo PayPal,
+                        sendo liberados quase sempre na hora, e trazendo a opção de parcelamento nos cartões de créditos
+                        mais comuns! Também aceitamos Boleto Bancário, trazendo ainda mais facilidade de pagamento!
+                    </p>
+                </div>
+            </div>
+        </section>
+        <!--Serviços-->
+        <section class="servicos-caixa">
+            <div class="titulo"><span>Nossos Serviços</span></div>
+
+            <div class="servicos-box">
+                <a href="pages/servicos.html">
+                    <div class="servico">
+                        <div class="top_of_servicos">
+                            <span class=" atendimento">Atendimento via</span>
+                            <span class="tipo_de_atendimento">online</span>
+                        </div>
+                        <div class="preco">
+                            <span class="partir">A partir:</span>
+                            <span class="valor"><sup>R$ </sup> 100</span>
+                        </div>
+                        <div class="informacoes">
+                            <div class="informacoes_texto">
+                                Atendimento psicológico online é quando psicólogo e cliente se encontram virtualmente,
+                                usando ferramentas como videochamadas ou mensagens, para terapia, em vez de
+                                pessoalmente.
+                            </div>
+                        </div>
+                        <div class="tempo_secoes">
+                            <div class="tempo"> Duração de 50 minutos</div>
+                        </div>
+                        <div class="mais_informacoes"></div>
+                    </div>
+                </a>
+
+                <a href="pages/servicos.html">
+                    <div class="servico">
+                        <div class="top_of_servicos">
+                            <span class=" atendimento">Atendimento via</span>
+                            <span class="tipo_de_atendimento">Presencial</span>
+                        </div>
+                        <div class="preco">
+                            <span class="partir">A partir:</span>
+                            <span class="valor"><sup>R$ </sup> 200</span>
+                        </div>
+                        <div class="informacoes">
+                            <div class="informacoes_texto">O atendimento psicológico presencial é quando um psicólogo e
+                                um
+                                cliente se encontram pessoalmente em um local, como um consultório, para conversar sobre
+                                questões emocionais e mentais. Eles interagem cara a cara durante sessões de terapia
+                                para
+                                ajudar o cliente a lidar com seus problemas e melhorar sua saúde mental.</div>
+                        </div>
+                        <div class="tempo_secoes">
+                            <div class="tempo"> Duração de 50 minutos</div>
+                        </div>
+                        <div class="mais_informacoes"></div>
+                    </div>
+                </a>
+
+                <a href="pages/servicos.html">
+                    <div class="servico">
+                        <div class="top_of_servicos">
+                            <span class=" atendimento">Atendimento via</span>
+                            <span class="tipo_de_atendimento">WHATSAPP</span>
+                        </div>
+                        <div class="preco">
+                            <span class="partir">A partir:</span>
+                            <span class="valor"><sup>R$ </sup> 60</span>
+                        </div>
+                        <div class="informacoes">
+                            <div class="informacoes_texto">O atendimento psicológico via WhatsApp é quando psicólogo e
+                                cliente se comunicam através desse aplicativo para realizar sessões de terapia. Eles
+                                discutem questões emocionais e mentais, trocando mensagens de texto, áudio ou até mesmo
+                                fazendo chamadas de vídeo, para trabalhar nos desafios e no bem-estar do cliente.</div>
+                        </div>
+                        <div class="tempo_secoes">
+                            <div class="tempo"> Duração de 50 minutos</div>
+                        </div>
+                        <div class="mais_informacoes"></div>
+                    </div>
+                </a>
+
+            </div>
+        </section>
+        <!--informativos-->
+        <section class="informativos-box">
+            <div class="titulo-informativos">Como funciona o atendimento na Clinica Psicologia</div>
+            <section class="informativos">
+                <div class="info1">
+                    <button class="info-button">1</button>
+                    <div class="informativo-box">
+                        <h1 id="titulo-info">Encontre o psicólogo ideal para você</h1>
+                        <p id="info-p">Na Clinica Psicologica, você tem acesso a profissionais qualificados independente
+                            da
+                            distância. Faça a pesquisa e use os filtros para encontrar os psicólogos mais adequados para
+                            a
+                            sua necessidade.</p>
+                    </div>
+                </div>
+                <div class="info2">
+                    <button class="info-button">2</button>
+                    <div class="informativo-box">
+                        <h1 id="titulo-info">Agende sua consulta</h1>
+                        <p id="info-p">Escolha o melhor horário para a sua consulta.
+                            Após realizar o pagamento, o horário do psicólogo estará totalmente disponível
+                            para você.</p>
+                    </div>
+                </div>
+                <div class="info3">
+                    <button class="info-button">3</button>
+                    <div class="informativo-box">
+                        <h1 id="titulo-info">Faça a consulta</h1>
+                        <p id="info-p">Agora é hora de aproveitar o seu horário agendado,
+                            fazer sua terapia online e cuidar de você!</p>
+                    </div>
+                </div>
+
+
+            </section>
+        </section>
+
+        <!--Psicólogos-->
+        <section class="psicologos-box">
+            <div class="title-psicologos">Conheça Nossa Equipe</div>
+            <section class="psicologos">
+                <div class="psicologo">
+                    <div class="img"><i class="fa-solid fa-1 fa-2xl"></i></div>
+                    <div class="nome-psi">Dimitri Payet</div>
+                    <div class="CRP">
+                        <span><strong>Estado: </strong> RJ</span>
+                        <span><strong>CRP:</strong>00/00000</span>
+                    </div>
+                    <div class="info-psi">Psicólogo clínico. Pós graduado em teorias psicanalíticas e pós graduando em
+                        avaliação psicológica.
+
+                    </div>
+                </div>
+                <div class="psicologo">
+                    <div class="img"><i class="fa-solid fa-2 fa-2xl"></i></div>
+                    <div class="nome-psi">Gabriel Pec</div>
+                    <div class="CRP">
+                        <span><strong>Estado: </strong> RS</span>
+                        <span><strong>CRP:</strong>00/00000</span>
+                    </div>
+                    <div class="info-psi">Psicólogo Clínico
+
+                        Psicologia Analítica - Jung.
+
+                        Pós graduado em avaliação psicológica.
+
+                        Pós graduando em neuropsicologia.
+
+                    </div>
+                </div>
+                <div class="psicologo">
+                    <div class="img"><i class="fa-solid fa-3 fa-2xl"></i></div>
+                    <div class="nome-psi">Philipe Coutinho</div>
+                    <div class="CRP">
+                        <span><strong>Estado: </strong> SP</span>
+                        <span><strong>CRP:</strong>00/00000</span>
+                    </div>
+                    <div class="info-psi">Psicólogo Clínica com experiência em intervenção em crise e atuação na
+                        prevenção de suicídio, comportamentos autolesivos, depressão, ansiedade, luto, transtorno
+                        borderline de personalidade.
+
+                    </div>
+                </div>
+                <div class="psicologo">
+                    <div class="img"><i class="fa-solid fa-4 fa-2xl"></i></div>
+                    <div class="nome-psi">Léo Jardim</div>
+                    <div class="CRP">
+                        <span><strong>Estado: </strong> DF</span>
+                        <span><strong>CRP:</strong>00/00000</span>
+                    </div>
+                    <div class="info-psi">Psicóloga Clínica
+
+                        Especialista em Terapia Cognitivo Comportamental e pós graduando em avaliação psicológica.</div>
+                </div>
+            </section>
+            <a href="pages/psicologos.html">
+                <button class="btn-ver-todos">
+                    Ver todos
+                </button>
+            </a>
+
+        </section>
+
+    </main>
+    <footer>
+        <hr>
+        <section class="footer-box">
+            <div class="navegation-footer">
+                <h3>Explore</h3>
+                <a href="index.html">HOME</a>
+                <a href="pages/servicos.html">SERVIÇOS</a>
+                <a href="pages/psicologos.html">PSICÓLOGOS</a>
+                <a href="pages/sobre.html">SOBRE</a>
+                <a href="pages/ajuda.html">AJUDA</a>
+
+            </div>
+            <div class="hora-func">
+                <h3>Horário de funcionamento</h3>
+                <div><i class="fa-solid fa-clock fa-xl"></i>
+                    <p> Segunda à sexta <br>(07:00 - 20:00)</p>
+                </div>
+                <div><i class="fa-solid fa-clock fa-xl"></i>
+                    <p> Sábado <br>(07:00 - 12:00)</p>
+                </div>
+                <div><i class="fa-regular fa-clock fa-xl"></i>
+                    <p> Domingo <br>(Fechado)</p>
+                </div>
+            </div>
+            <div class="local">
+                <h1>Brasília - DF</h1>
+                <div>
+                    <a href="https://api.whatsapp.com/send/?phone=5561998366514&text&type=phone_number&app_absent=0"
+                        target="_blank"><i class="fa-brands fa-square-whatsapp fa-2xl"></i>
+                    </a>
+                    <a href="https://www.instagram.com/alphapsicologiabsb/"><i
+                            class="fa-brands fa-square-instagram fa-2xl"></i>
+                    </a>
+                </div>
+                <div><i class="fa-solid fa-location-pin fa-xl"></i>
+                    <p> QR 216 – Santa Maria Norte, Brasília – DF, 72546-606</p>
+                </div>
+                <div><i class="fa-solid fa-phone fa-xl"></i>
+                    <p> (61) 9 9836-6514</p>
+                </div>
+                <div><i class="fa-brands fa-square-whatsapp fa-2xl"></i>
+                    <p> (61) 99836-6514</p>
+                </div>
+            </div>
+        </section>
+        <section class="development-box">
+            <hr>
+            <div class="development-caixa">
+                <div class="development"> Copyright @2024 Developed by Kenay Nobre</div>
+                <div class="logo-development"><a href="index.html"><img src="assets/img/icon.png" width="80px"></a></div>
+                <div class="meu-insta">
+                    <a href="https://www.instagram.com/kenaygn/" target="_blank">
+                        <i class="fa-brands fa-square-instagram fa-2xl"></i>
+                        @kenaynobre
+                    </a>
+                </div>
+            </div>
+        </section>
+    </footer>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>

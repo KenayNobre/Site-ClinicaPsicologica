@@ -1,0 +1,69 @@
+.main-servicos{
+    margin-top: 65px;
+    display: flex;
+    flex-direction: column;
+}
+.indicativo-pagina{
+    width: 100%;
+    height: 200px;
+    color: #00c5c2;
+    background-image: url(../img/Fundo_login_cadastro.png);
+    background-size: cover;
+    background-color: #353535;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    font-weight: 600;
+}
+
+.login_cadastro-box{
+    width: 100%;
+    height: 750px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login_cadastro-caixa{
+
+    width: 80%;
+    height: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+}
+
+.login-box{
+    width: 49.5%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-box input{
+    width: 50%;
+    height: 5%;
+    border: 1px solid #353535;
+}
+
+.email-box{
+    width: 100%;
+}
+
+.separador{
+    border-left: 1px solid #353535;
+    height: 100%;
+}
+
+.cadastro-box{
+    width: 49.5%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
